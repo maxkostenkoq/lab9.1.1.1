@@ -1,0 +1,95 @@
+body{
+    background-color: green;
+}
+
+.title{
+    text-align: center;
+}
+
+.wrapper{
+    width: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  
+    @media screen and (min-width:320px) {
+      width: 320px;
+
+}
+
+@media screen and (min-width:768px) {
+      width: 768px;
+}
+
+@media screen and (min-width:1200px) {
+      width: 1200px;
+}
+  }
+
+  ul{
+      list-style: none;
+      margin: 0;
+      padding: 0;
+
+      display: flex;
+  }
+
+.btns_list{
+    width: 100%;
+    justify-content: center;
+
+}
+
+.btn_item+ .btn_item{
+    margin-left: 10px;
+}
+
+.btn{
+    padding: 8px 10px;
+    font-size: 28px;
+
+    &:hover{
+        cursor: pointer;
+    }
+}
+
+.name{
+    display: block;
+    text-align: center;
+    font-size: 25px;
+}
+
+.item + .item{
+    margin-left: 10px;
+}
+
+.photo{
+    @media screen and (min-width:320px) {
+        width: 90px;
+        height: auto;
+  }
+  
+  @media screen and (min-width:768px) {
+        width: 120px;
+        height: auto;
+  }
+  
+  @media screen and (min-width:1200px) {
+        width: 150px;
+        height: auto;
+  }
+}
+
+.score_list{
+    display: flex;
+    justify-content: space-between;
+}
+
+.score{
+    color: white;
+    font-size: 24px;
+}
+
+.coCard_list, .plCard_list{
+    justify-content: center;
+}
